@@ -1,3 +1,5 @@
+# Uso: ruby csv2geojson.rb file.csv
+
 require "csv"
 require "json"
 
