@@ -32,4 +32,4 @@ document = {
 
 dest_filename = "#{File.basename(path, ".csv")}.geojson"
 
-File.write(dest_filename, document.to_json)
+File.write(dest_filename, JSON.pretty_generate(document))
