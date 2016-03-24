@@ -2,7 +2,7 @@
 
 Questo repository contiene un insieme di script di varia utilità.
 
-## Conversione da .csv a .geojson
+## Conversione da .csv a .geojson del dataset dei defibrillatori
 
 Uso:
 
