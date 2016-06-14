@@ -19,6 +19,11 @@ features = CSV.foreach(path, col_sep: ",", headers: true).map do |row|
     properties: {
       title: title,
       description: row["DESCRIZIONE"],
+      availability: row["disponibilità"],
+      host: row["struttura ospitante"],
+      verificationStatus: row["stato di verifica"],
+      verifier: row["ente verificatore"],
+      lastVerifiedAt: row["data ultima verifica"],
       "marker-symbol": "heart",
       "marker-color": "#E56C69",
     }
